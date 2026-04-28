@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardFlux</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="logo">CardFlux</h2>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="search.html">Card Search</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="deck.html">Deck</a>
+        <a href="info.html">Info</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <h1>CardFlux</h1>
+      <p>
+        Search cards, build decks, and save your favorites using a live MTG
+        database!
+      </p>
+    </header>
+
+    <section class="card-week">
+      <h2>Card of the Week</h2>
+      <div class="card-container">
+        <img src="https://via.placeholder.com/223x310" alt="Card of the Week" />
+        <div class="card-info">
+          <h3>Card Name</h3>
+          <p>Short description of why this card is featured this week.</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
